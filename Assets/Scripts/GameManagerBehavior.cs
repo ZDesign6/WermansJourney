@@ -4,6 +4,14 @@ public class GameManagerBehavior : MonoBehaviour
 {
     //the container for the first instance of this script
     public static GameManagerBehavior singleton;
+
+    // -- DIALOGUE --
+
+    //tracks if we are inDialogue
+    public bool inDialogue = false;
+    //tracks the active DialogueEngager
+    public DialogueEngager activeDialogueEngager;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -34,5 +42,15 @@ public class GameManagerBehavior : MonoBehaviour
     void Update()
     {
         
+    }
+    //on press enter, advance the dialogue in the active dialogue engager, if there is one
+    void OnPressEnter()
+    {
+        //check if not null
+        if (activeDialogueEngager != null)
+        {
+            //then trigger the advance dialogue method of it
+            activeDialogueEngager.advanceDialogue();
+        }
     }
 }
