@@ -39,13 +39,17 @@ public class DialogueEngager : MonoBehaviour
     //collision function
     private void OnTriggerEnter2D (Collider2D collider)
     {
-        //flip inDialogue to true
-        gameManager.inDialogue = true;
-        //store self as the active DialogueEngager
-        gameManager.activeDialogueEngager = this;
+        //check if the collision was with the player
+        if (collider.gameObject.name == "Player")
+        {
+            //flip inDialogue to true
+            gameManager.inDialogue = true;
+            //store self as the active DialogueEngager
+            gameManager.activeDialogueEngager = this;
 
-        //show the first dialogue and text
-        showDialogue(currentDialogueObjIndex);
+            //show the first dialogue and text
+            showDialogue(currentDialogueObjIndex);
+        }
     }
     //hides the current dialogueBGObj and dialogueTextObj, increments the Index, then shows the next. Also wraps up dialogue if we are on the last Index.
     public void advanceDialogue()
