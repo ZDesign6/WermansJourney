@@ -13,7 +13,7 @@ public class GameManagerBehavior : MonoBehaviour
     public DialogueEngager activeDialogueEngager;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
         // -- SINGLETON ASSIGNMENT --
 

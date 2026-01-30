@@ -33,7 +33,7 @@ public class DialogueEngager : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Debug.Log("current gameManager is " +  gameManager.name);
+        //Debug.Log("current gameManager is " +  gameManager.name);
     }
 
     //collision function

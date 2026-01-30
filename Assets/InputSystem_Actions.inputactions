@@ -34,7 +34,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "PressEnter",
+                    "name": "AdvanceDialogue",
                     "type": "Button",
                     "id": "a68d2075-57b4-4bc9-aa79-a00e4b9f1c75",
                     "expectedControlType": "",
@@ -84,7 +84,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "PressEnter",
+                    "action": "AdvanceDialogue",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

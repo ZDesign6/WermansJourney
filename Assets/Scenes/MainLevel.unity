@@ -1154,6 +1154,7 @@ GameObject:
   - component: {fileID: 43090886}
   - component: {fileID: 43090885}
   - component: {fileID: 43090884}
+  - component: {fileID: 43090888}
   m_Layer: 0
   m_Name: RouteBEnding
   m_TagString: Untagged
@@ -1307,6 +1308,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &43090888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43090883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1290baa114b5b124abd6d2899fe70527, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RouteBEndingBehavior
 --- !u!1 &61276371
 GameObject:
   m_ObjectHideFlags: 0
@@ -10841,6 +10854,8 @@ GameObject:
   - component: {fileID: 921493713}
   - component: {fileID: 921493712}
   - component: {fileID: 921493711}
+  - component: {fileID: 921493715}
+  - component: {fileID: 921493716}
   m_Layer: 0
   m_Name: RouteAEnding
   m_TagString: Untagged
@@ -10994,6 +11009,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &921493715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921493710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e201fd51a982de84f99bc1da25031dbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RouteAEndingBehavior
+--- !u!114 &921493716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921493710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e201fd51a982de84f99bc1da25031dbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RouteAEndingBehavior
 --- !u!1 &928300305
 GameObject:
   m_ObjectHideFlags: 0
@@ -16364,6 +16403,8 @@ GameObject:
   - component: {fileID: 1471961854}
   - component: {fileID: 1471961853}
   - component: {fileID: 1471961852}
+  - component: {fileID: 1471961856}
+  - component: {fileID: 1471961857}
   m_Layer: 0
   m_Name: RouteCEnding
   m_TagString: Untagged
@@ -16517,6 +16558,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1471961856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471961851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cec92f37614d1a04f8f18aa6704c05b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RouteCEnding
+--- !u!114 &1471961857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471961851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cec92f37614d1a04f8f18aa6704c05b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RouteCEndingBehavior
 --- !u!1 &1491284230
 GameObject:
   m_ObjectHideFlags: 0
@@ -19628,7 +19693,7 @@ Transform:
   m_GameObject: {fileID: 1791211834}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -6.6, z: 0}
+  m_LocalPosition: {x: 0, y: 118.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23848,10 +23913,10 @@ SceneRoots:
   - {fileID: 1170775414}
   - {fileID: 1096198267}
   - {fileID: 1515090862}
+  - {fileID: 921493714}
+  - {fileID: 43090887}
+  - {fileID: 1471961855}
   - {fileID: 290972926}
   - {fileID: 639709728}
   - {fileID: 10421525}
   - {fileID: 482274773}
-  - {fileID: 921493714}
-  - {fileID: 43090887}
-  - {fileID: 1471961855}
