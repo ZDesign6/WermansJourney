@@ -44,7 +44,7 @@ public class GameManagerBehavior : MonoBehaviour
         
     }
     //on press enter, advance the dialogue in the active dialogue engager, if there is one
-    void OnPressEnter()
+    void OnAdvanceDialogue()
     {
         //check if not null
         if (activeDialogueEngager != null)
