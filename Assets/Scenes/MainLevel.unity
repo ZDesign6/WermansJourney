@@ -906,7 +906,7 @@ GameObject:
   - component: {fileID: 25543105}
   - component: {fileID: 25543104}
   m_Layer: 5
-  m_Name: RouteCDialoneTwo1Text
+  m_Name: RouteCDialogueTwo1Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1044,7 +1044,7 @@ GameObject:
   - component: {fileID: 27783415}
   - component: {fileID: 27783414}
   m_Layer: 5
-  m_Name: RouteBDialoneOne4Text
+  m_Name: RouteBDialogueOne4Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1331,7 +1331,7 @@ GameObject:
   - component: {fileID: 36795454}
   - component: {fileID: 36795453}
   m_Layer: 5
-  m_Name: RouteCDialoneOne2Text
+  m_Name: RouteCDialogueOne2Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1468,7 +1468,7 @@ GameObject:
   - component: {fileID: 41153076}
   - component: {fileID: 41153075}
   m_Layer: 5
-  m_Name: RouteCDialoneFour1Text
+  m_Name: RouteCDialogueFour1Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1971,7 +1971,7 @@ GameObject:
   - component: {fileID: 97555491}
   - component: {fileID: 97555490}
   m_Layer: 5
-  m_Name: RouteCDialoneOne3Text
+  m_Name: RouteCDialogueOne3Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3587,7 +3587,7 @@ GameObject:
   - component: {fileID: 235251804}
   - component: {fileID: 235251803}
   m_Layer: 5
-  m_Name: RouteCDialoneFive3Text
+  m_Name: RouteCDialogueFive3Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4540,7 +4540,7 @@ GameObject:
   - component: {fileID: 306790559}
   - component: {fileID: 306790558}
   m_Layer: 5
-  m_Name: RouteCDialoneFour2Text
+  m_Name: RouteCDialogueFour2Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7041,7 +7041,7 @@ GameObject:
   - component: {fileID: 491971786}
   - component: {fileID: 491971785}
   m_Layer: 5
-  m_Name: RouteCDialoneThree5Text
+  m_Name: RouteCDialogueThree5Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7913,7 +7913,7 @@ GameObject:
   - component: {fileID: 551152518}
   - component: {fileID: 551152517}
   m_Layer: 5
-  m_Name: RouteCDialoneOne1Text
+  m_Name: RouteCDialogueOne1Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9092,7 +9092,7 @@ GameObject:
   - component: {fileID: 612406704}
   - component: {fileID: 612406703}
   m_Layer: 5
-  m_Name: RouteCDialoneFive2Text
+  m_Name: RouteCDialogueFive2Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10085,7 +10085,7 @@ GameObject:
   - component: {fileID: 684249740}
   - component: {fileID: 684249739}
   m_Layer: 5
-  m_Name: RouteBDialoneTwo2Text
+  m_Name: RouteBDialogueTwo2Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13503,7 +13503,7 @@ GameObject:
   - component: {fileID: 924303001}
   - component: {fileID: 924303000}
   m_Layer: 5
-  m_Name: RouteCDialoneThree6Text
+  m_Name: RouteCDialogueThree6Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14905,7 +14905,7 @@ GameObject:
   - component: {fileID: 991263220}
   - component: {fileID: 991263219}
   m_Layer: 5
-  m_Name: RouteCDialoneThree3Text
+  m_Name: RouteCDialogueThree3Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15235,7 +15235,7 @@ GameObject:
   - component: {fileID: 1007776177}
   - component: {fileID: 1007776176}
   m_Layer: 5
-  m_Name: RouteCDialoneFive4Text
+  m_Name: RouteCDialogueFive4Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16025,7 +16025,7 @@ GameObject:
   - component: {fileID: 1105284699}
   - component: {fileID: 1105284698}
   m_Layer: 5
-  m_Name: RouteCDialoneFive7Text
+  m_Name: RouteCDialogueFive7Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16236,7 +16236,7 @@ GameObject:
   - component: {fileID: 1128839220}
   - component: {fileID: 1128839219}
   m_Layer: 5
-  m_Name: RouteCDialoneThree4Text
+  m_Name: RouteCDialogueThree4Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16372,7 +16372,7 @@ GameObject:
   - component: {fileID: 1141904188}
   - component: {fileID: 1141904187}
   m_Layer: 5
-  m_Name: RouteBDialoneOne1Text
+  m_Name: RouteBDialogueOne1Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16933,7 +16933,7 @@ GameObject:
   - component: {fileID: 1180024978}
   - component: {fileID: 1180024977}
   m_Layer: 5
-  m_Name: RouteCDialoneFive6Text
+  m_Name: RouteCDialogueFive6Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17144,7 +17144,7 @@ GameObject:
   - component: {fileID: 1185675373}
   - component: {fileID: 1185675372}
   m_Layer: 5
-  m_Name: RouteCDialoneFive1Text
+  m_Name: RouteCDialogueFive1Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19038,7 +19038,7 @@ GameObject:
   - component: {fileID: 1296170210}
   - component: {fileID: 1296170209}
   m_Layer: 5
-  m_Name: RouteCDialoneFive5Text
+  m_Name: RouteCDialogueFive5Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19177,7 +19177,7 @@ GameObject:
   - component: {fileID: 1308954391}
   - component: {fileID: 1308954390}
   m_Layer: 5
-  m_Name: RouteCDialoneFour3Text
+  m_Name: RouteCDialogueFour3Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19913,7 +19913,7 @@ GameObject:
   - component: {fileID: 1370354968}
   - component: {fileID: 1370354967}
   m_Layer: 5
-  m_Name: RouteBDialoneTwo4Text
+  m_Name: RouteBDialogueTwo4Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20051,7 +20051,7 @@ GameObject:
   - component: {fileID: 1372037406}
   - component: {fileID: 1372037405}
   m_Layer: 5
-  m_Name: RouteCDialoneOne4Text
+  m_Name: RouteCDialogueOne4Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23045,7 +23045,7 @@ GameObject:
   - component: {fileID: 1556467673}
   - component: {fileID: 1556467672}
   m_Layer: 5
-  m_Name: RouteBDialoneOne2Text
+  m_Name: RouteBDialogueOne2Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24503,7 +24503,7 @@ GameObject:
   - component: {fileID: 1654752633}
   - component: {fileID: 1654752632}
   m_Layer: 5
-  m_Name: RouteBDialoneTwo5Text
+  m_Name: RouteBDialogueTwo5Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25721,7 +25721,7 @@ GameObject:
   - component: {fileID: 1745395678}
   - component: {fileID: 1745395677}
   m_Layer: 5
-  m_Name: RouteBDialoneTwo1Text
+  m_Name: RouteBDialogueTwo1Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25860,7 +25860,7 @@ GameObject:
   - component: {fileID: 1750843719}
   - component: {fileID: 1750843718}
   m_Layer: 5
-  m_Name: RouteCDialoneTwo3Text
+  m_Name: RouteCDialogueTwo3Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26000,7 +26000,7 @@ GameObject:
   - component: {fileID: 1758928784}
   - component: {fileID: 1758928783}
   m_Layer: 5
-  m_Name: RouteCDialoneThree2Text
+  m_Name: RouteCDialogueThree2Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26900,7 +26900,7 @@ GameObject:
   - component: {fileID: 1795072456}
   - component: {fileID: 1795072455}
   m_Layer: 5
-  m_Name: RouteCDialoneTwo2Text
+  m_Name: RouteCDialogueTwo2Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27931,7 +27931,7 @@ GameObject:
   - component: {fileID: 1855575424}
   - component: {fileID: 1855575423}
   m_Layer: 5
-  m_Name: RouteCDialoneThree1Text
+  m_Name: RouteCDialogueThree1Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28822,7 +28822,7 @@ GameObject:
   - component: {fileID: 1900889739}
   - component: {fileID: 1900889738}
   m_Layer: 5
-  m_Name: RouteBDialoneOne3Text
+  m_Name: RouteBDialogueOne3Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30294,7 +30294,7 @@ GameObject:
   - component: {fileID: 1984088027}
   - component: {fileID: 1984088026}
   m_Layer: 5
-  m_Name: RouteCDialoneTwo5Text
+  m_Name: RouteCDialogueTwo5Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30803,7 +30803,7 @@ GameObject:
   - component: {fileID: 2027337691}
   - component: {fileID: 2027337690}
   m_Layer: 5
-  m_Name: RouteBDialoneTwo3Text
+  m_Name: RouteBDialogueTwo3Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32087,7 +32087,7 @@ GameObject:
   - component: {fileID: 2134448556}
   - component: {fileID: 2134448555}
   m_Layer: 5
-  m_Name: RouteCDialoneTwo4Text
+  m_Name: RouteCDialogueTwo4Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
