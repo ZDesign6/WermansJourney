@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 01c611e272cff1548a22a0c5ef1f84d0
+guid: 168ab0a656b77294a8c715a53db4fa7c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5047741034672270511
-    second: BackDirttile_sheet_128px_by_128px_0
+      213: -735339297129053561
+    second: SmallRock3Colored_0
+  - first:
+      213: 4881873492340875738
+    second: SmallRock3Colored_1
+  - first:
+      213: 2907014069349120941
+    second: SmallRock3Colored_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +102,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BackDirttile_sheet_128px_by_128px_0
+      name: SmallRock3Colored_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 3000
-        height: 3000
+        x: 634
+        y: 876
+        width: 11
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1535236e542d2f9b0800000000000000
-      internalID: -5047741034672270511
+      spriteID: 782cc352ecc8bc5f0800000000000000
+      internalID: -735339297129053561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock3Colored_1
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 879
+        width: 14
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1af557316efb340800000000000000
+      internalID: 4881873492340875738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock3Colored_2
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 761
+        width: 364
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabfd90e4e9c75820800000000000000
+      internalID: 2907014069349120941
       vertices: []
       indices: 
       edges: []
@@ -148,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BackDirttile_sheet_128px_by_128px_0: -5047741034672270511
+      SmallRock3Colored_0: -735339297129053561
+      SmallRock3Colored_1: 4881873492340875738
+      SmallRock3Colored_2: 2907014069349120941
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

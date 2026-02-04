@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 27a62db397899cb46b2c7e06a4958991
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4403902842292185886
+    second: SmallRock2Colored_0
+  - first:
+      213: 6114411948530299138
+    second: SmallRock2Colored_1
+  - first:
+      213: -2329721811681810973
+    second: SmallRock2Colored_2
+  - first:
+      213: -6784290582086238135
+    second: SmallRock2Colored_3
+  - first:
+      213: -5898903121917518542
+    second: SmallRock2Colored_4
+  - first:
+      213: -5805419374163385679
+    second: SmallRock2Colored_5
+  - first:
+      213: -5503886017153140887
+    second: SmallRock2Colored_6
+  - first:
+      213: 7389960422015836063
+    second: SmallRock2Colored_7
+  - first:
+      213: 4953700600673019320
+    second: SmallRock2Colored_8
+  - first:
+      213: -6753323220953417290
+    second: SmallRock2Colored_9
+  - first:
+      213: 489519494840141333
+    second: SmallRock2Colored_10
+  - first:
+      213: -4316146451927464920
+    second: SmallRock2Colored_11
+  - first:
+      213: 4152588309017207067
+    second: SmallRock2Colored_12
+  - first:
+      213: -652164370020903770
+    second: SmallRock2Colored_13
+  - first:
+      213: -3453336297423358080
+    second: SmallRock2Colored_14
+  - first:
+      213: 1121358368047556957
+    second: SmallRock2Colored_15
+  - first:
+      213: -2609542992576651731
+    second: SmallRock2Colored_16
+  - first:
+      213: 8071908245910261838
+    second: SmallRock2Colored_17
+  - first:
+      213: 8574724187983980242
+    second: SmallRock2Colored_18
+  - first:
+      213: -6439291429649899887
+    second: SmallRock2Colored_19
+  - first:
+      213: -488848410035446600
+    second: SmallRock2Colored_20
+  - first:
+      213: 4328243489334371942
+    second: SmallRock2Colored_21
+  - first:
+      213: 5588708820379441824
+    second: SmallRock2Colored_22
+  - first:
+      213: -8035299496020320179
+    second: SmallRock2Colored_23
+  - first:
+      213: 6967483499521318017
+    second: SmallRock2Colored_24
+  - first:
+      213: 6806844964187049221
+    second: SmallRock2Colored_25
+  - first:
+      213: 7872765507173278355
+    second: SmallRock2Colored_26
+  - first:
+      213: -5397173107664283218
+    second: SmallRock2Colored_27
+  - first:
+      213: 5329138602639519994
+    second: SmallRock2Colored_28
+  - first:
+      213: -5771212899906608759
+    second: SmallRock2Colored_29
+  - first:
+      213: -7212249836948256523
+    second: SmallRock2Colored_30
+  - first:
+      213: -467095216819960961
+    second: SmallRock2Colored_31
+  - first:
+      213: 6376579397977136046
+    second: SmallRock2Colored_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SmallRock2Colored_0
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1175
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ba82c5d4ecd1d30800000000000000
+      internalID: 4403902842292185886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_1
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1073
+        width: 83
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2017d8a8541cad450800000000000000
+      internalID: 6114411948530299138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_2
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1132
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5e93d0b5a2bafd0800000000000000
+      internalID: -2329721811681810973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_3
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1120
+        width: 74
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940c8b909ab59d1a0800000000000000
+      internalID: -6784290582086238135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_4
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 1119
+        width: 39
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23dd9a54dd2e22ea0800000000000000
+      internalID: -5898903121917518542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1024
+        width: 58
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b222de66d10f6fa0800000000000000
+      internalID: -5805419374163385679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_6
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 744
+        width: 313
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967f85704d44e93b0800000000000000
+      internalID: -5503886017153140887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_7
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1072
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f1372a9d96e8660800000000000000
+      internalID: 7389960422015836063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_8
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1031
+        width: 45
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b521c253741fb440800000000000000
+      internalID: 4953700600673019320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_9
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 997
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9bca9af406742a0800000000000000
+      internalID: -6753323220953417290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_10
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1055
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5164390136f1bc600800000000000000
+      internalID: 489519494840141333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_11
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 1010
+        width: 6
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8240d4e7ba7f914c0800000000000000
+      internalID: -4316146451927464920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_12
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1025
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b112961d015f0a930800000000000000
+      internalID: 4152588309017207067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_13
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1003
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4dcb5f5fb03f6f0800000000000000
+      internalID: -652164370020903770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_14
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1011
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0873e1e1fe84310d0800000000000000
+      internalID: -3453336297423358080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_15
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 996
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59e2699e7ddf8f00800000000000000
+      internalID: 1121358368047556957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_16
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 968
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2edb55697a09cbd0800000000000000
+      internalID: -2609542992576651731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_17
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 954
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40170968cd250070800000000000000
+      internalID: 8071908245910261838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_18
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 921
+        width: 65
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d62cb7d73a8ff670800000000000000
+      internalID: 8574724187983980242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_19
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 905
+        width: 11
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e1082cf8a03a6a0800000000000000
+      internalID: -6439291429649899887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_20
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 906
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc92da06f24739f0800000000000000
+      internalID: -488848410035446600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_21
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 875
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6662c238582011c30800000000000000
+      internalID: 4328243489334371942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_22
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 932
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa1fc7df051f8d40800000000000000
+      internalID: 5588708820379441824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_23
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 847
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4065d36ea1ec7090800000000000000
+      internalID: -8035299496020320179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_24
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 872
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c1d57d35971b060800000000000000
+      internalID: 6967483499521318017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_25
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 757
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d86834e65c67e50800000000000000
+      internalID: 6806844964187049221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_26
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 789
+        width: 36
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392e20f548ea14d60800000000000000
+      internalID: 7872765507173278355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_27
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 685
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9116e67a36915b0800000000000000
+      internalID: -5397173107664283218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_28
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 669
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af07629f257e4f940800000000000000
+      internalID: 5329138602639519994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_29
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 673
+        width: 67
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9812ae9d17888efa0800000000000000
+      internalID: -5771212899906608759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_30
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 645
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f884554cf0f8eb90800000000000000
+      internalID: -7212249836948256523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_31
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 646
+        width: 47
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f738925006b8489f0800000000000000
+      internalID: -467095216819960961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallRock2Colored_32
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 652
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab508a8d292e7850800000000000000
+      internalID: 6376579397977136046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SmallRock2Colored_0: 4403902842292185886
+      SmallRock2Colored_1: 6114411948530299138
+      SmallRock2Colored_10: 489519494840141333
+      SmallRock2Colored_11: -4316146451927464920
+      SmallRock2Colored_12: 4152588309017207067
+      SmallRock2Colored_13: -652164370020903770
+      SmallRock2Colored_14: -3453336297423358080
+      SmallRock2Colored_15: 1121358368047556957
+      SmallRock2Colored_16: -2609542992576651731
+      SmallRock2Colored_17: 8071908245910261838
+      SmallRock2Colored_18: 8574724187983980242
+      SmallRock2Colored_19: -6439291429649899887
+      SmallRock2Colored_2: -2329721811681810973
+      SmallRock2Colored_20: -488848410035446600
+      SmallRock2Colored_21: 4328243489334371942
+      SmallRock2Colored_22: 5588708820379441824
+      SmallRock2Colored_23: -8035299496020320179
+      SmallRock2Colored_24: 6967483499521318017
+      SmallRock2Colored_25: 6806844964187049221
+      SmallRock2Colored_26: 7872765507173278355
+      SmallRock2Colored_27: -5397173107664283218
+      SmallRock2Colored_28: 5329138602639519994
+      SmallRock2Colored_29: -5771212899906608759
+      SmallRock2Colored_3: -6784290582086238135
+      SmallRock2Colored_30: -7212249836948256523
+      SmallRock2Colored_31: -467095216819960961
+      SmallRock2Colored_32: 6376579397977136046
+      SmallRock2Colored_4: -5898903121917518542
+      SmallRock2Colored_5: -5805419374163385679
+      SmallRock2Colored_6: -5503886017153140887
+      SmallRock2Colored_7: 7389960422015836063
+      SmallRock2Colored_8: 4953700600673019320
+      SmallRock2Colored_9: -6753323220953417290
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
