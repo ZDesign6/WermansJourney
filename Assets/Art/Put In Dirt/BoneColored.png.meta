@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: fb3b54b1c63beae48bc522bc709e4355
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3927560456580524755
+    second: BoneColored_0
+  - first:
+      213: 6673348874874916661
+    second: BoneColored_1
+  - first:
+      213: -4154336552477108083
+    second: BoneColored_2
+  - first:
+      213: -2282689727881119045
+    second: BoneColored_3
+  - first:
+      213: 7442404906639109826
+    second: BoneColored_4
+  - first:
+      213: 3399623756481851395
+    second: BoneColored_5
+  - first:
+      213: 1489170137620562146
+    second: BoneColored_6
+  - first:
+      213: 2612813276775024317
+    second: BoneColored_7
+  - first:
+      213: 1861873330963392060
+    second: BoneColored_8
+  - first:
+      213: -9141947633805836420
+    second: BoneColored_9
+  - first:
+      213: -7855062928533569616
+    second: BoneColored_10
+  - first:
+      213: -8816411687286085065
+    second: BoneColored_11
+  - first:
+      213: -3382922157822786345
+    second: BoneColored_12
+  - first:
+      213: -9043121514841524397
+    second: BoneColored_13
+  - first:
+      213: -2009513188378119820
+    second: BoneColored_14
+  - first:
+      213: 7974615209394395609
+    second: BoneColored_15
+  - first:
+      213: -7539487280586063381
+    second: BoneColored_16
+  - first:
+      213: 8685686958046261094
+    second: BoneColored_17
+  - first:
+      213: -1904968383867750521
+    second: BoneColored_18
+  - first:
+      213: 8289819607405806132
+    second: BoneColored_19
+  - first:
+      213: 6847511521514534937
+    second: BoneColored_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BoneColored_0
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 2036
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da6a581d6f718630800000000000000
+      internalID: 3927560456580524755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneColored_1
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 2036
+        width: 102
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f0c2dd17f7c9c50800000000000000
+      internalID: 6673348874874916661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneColored_2
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1937
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d885e288ae4d856c0800000000000000
+      internalID: -4154336552477108083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneColored_3
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 1934
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba763569c14250e0800000000000000
+      internalID: -2282689727881119045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneColored_4
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1914
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce29deb4dbb84760800000000000000
+      internalID: 7442404906639109826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneColored_5
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 1877
+        width: 7
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30074176bc3ed2f20800000000000000
+      internalID: 3399623756481851395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneColored_6
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 1895
+        width: 28
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e04ef6a9589aa410800000000000000
+      internalID: 1489170137620562146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneColored_7
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1917
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6899af4d3924420800000000000000
+      internalID: 2612813276775024317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneColored_8
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1874
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36a8dc0ee3b6d910800000000000000
+      internalID: 1861873330963392060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneColored_9
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 103
+        width: 1103
+        height: 1805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fb7cb2017412180800000000000000
+      internalID: -9141947633805836420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneColored_10
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1883
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bfba6862e53df290800000000000000
+      internalID: -7855062928533569616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneColored_11
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1890
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ae5b12840d5a580800000000000000
+      internalID: -8816411687286085065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneColored_12
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1821
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4cc2098327d01d0800000000000000
+      internalID: -3382922157822786345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneColored_13
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1773
+        width: 14
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357bd2f05e0608280800000000000000
+      internalID: -9043121514841524397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneColored_14
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 1663
+        width: 30
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471724be666cc14e0800000000000000
+      internalID: -2009513188378119820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneColored_15
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1588
+        width: 37
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9516818468bae60800000000000000
+      internalID: 7974615209394395609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneColored_16
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 1472
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be18714a34c5e5790800000000000000
+      internalID: -7539487280586063381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneColored_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 233
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f27940542c98870800000000000000
+      internalID: 8685686958046261094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneColored_18
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 77
+        width: 311
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787763b09513095e0800000000000000
+      internalID: -1904968383867750521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneColored_19
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 77
+        width: 165
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432cd77f20b5b0370800000000000000
+      internalID: 8289819607405806132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoneColored_20
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 169
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918b44bf27f370f50800000000000000
+      internalID: 6847511521514534937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BoneColored_0: 3927560456580524755
+      BoneColored_1: 6673348874874916661
+      BoneColored_10: -7855062928533569616
+      BoneColored_11: -8816411687286085065
+      BoneColored_12: -3382922157822786345
+      BoneColored_13: -9043121514841524397
+      BoneColored_14: -2009513188378119820
+      BoneColored_15: 7974615209394395609
+      BoneColored_16: -7539487280586063381
+      BoneColored_17: 8685686958046261094
+      BoneColored_18: -1904968383867750521
+      BoneColored_19: 8289819607405806132
+      BoneColored_2: -4154336552477108083
+      BoneColored_20: 6847511521514534937
+      BoneColored_3: -2282689727881119045
+      BoneColored_4: 7442404906639109826
+      BoneColored_5: 3399623756481851395
+      BoneColored_6: 1489170137620562146
+      BoneColored_7: 2612813276775024317
+      BoneColored_8: 1861873330963392060
+      BoneColored_9: -9141947633805836420
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
