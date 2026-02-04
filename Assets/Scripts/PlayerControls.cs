@@ -25,6 +25,13 @@ public class PlayerControls : MonoBehaviour
     //maximum possible rotation (positive or negative)
     float maxRotation = 90;
     public float friction = .01f;
+
+    // -- Sound-Related --
+    public int chooseSound;
+    public AudioSource GravelSnd1;
+    public AudioSource GravelSnd2;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -110,6 +117,19 @@ public class PlayerControls : MonoBehaviour
         //toggle holdingW
         holdingW = !holdingW;
         //Debug.Log("Pressed W");
+        
+        // -- Sound-Picker--
+        chooseSound = Random.Range(1,3);
+        if (chooseSound == 1)
+        {
+            GravelSnd1.Play(0);
+            Debug.Log("one");
+        }
+        if (chooseSound == 2)
+        {
+            GravelSnd2.Play(0);
+            Debug.Log("2");
+        }
     }
     //this fct runs on press or release A
     void OnPressA()
