@@ -32,15 +32,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
-                },
-                {
-                    "name": "AdvanceDialogue",
-                    "type": "Button",
-                    "id": "a68d2075-57b4-4bc9-aa79-a00e4b9f1c75",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -74,17 +65,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "PressD",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "a8eca5f5-0b8b-4196-bc30-73e684fae838",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "AdvanceDialogue",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -180,6 +160,15 @@
                     "type": "PassThrough",
                     "id": "9caa3d8a-6b2f-4e8e-8bad-6ede561bd9be",
                     "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "AdvanceDialogue",
+                    "type": "Button",
+                    "id": "ec8ba61f-e91e-485e-b5bd-1b756ccea32d",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -601,6 +590,17 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "TrackedDeviceOrientation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6a4c0921-c753-45df-8746-2cdc7e1aefd9",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AdvanceDialogue",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
