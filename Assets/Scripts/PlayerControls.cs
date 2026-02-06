@@ -103,7 +103,7 @@ public class PlayerControls : MonoBehaviour
         workingAngularVelocity = Mathf.Clamp(workingAngularVelocity, maxAngularVelocity * -1, maxAngularVelocity);
         //every frame, clamp rotation between min (negative max) and max
         workingRotation = Mathf.Clamp(workingRotation, maxRotation * -1, maxRotation);
-        Debug.Log("current linear velocity is " + this.gameObject.GetComponent<Rigidbody2D>().linearVelocity);
+        //Debug.Log("current linear velocity is " + this.gameObject.GetComponent<Rigidbody2D>().linearVelocity);
 
         // -- RE-ASSIGNMENT -- (assign all working values back into the rigidbody)
 

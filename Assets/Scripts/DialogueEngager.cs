@@ -16,12 +16,24 @@ public class DialogueEngager : MonoBehaviour
     // -- DIALOGUE --
 
     //list of all UI DialogueBGs that should be triggered. assigned in-editor.
-    public List<GameObject> dialogueBGObjs = new List<GameObject>();
+    public GameObject BGObj;
     //list of all UI DialogueTextObjs that should be triggered. assigned in-editor.
     public List<GameObject> dialogueTextObjs = new List<GameObject>();
-
-    //acts as a public Index for iterating over the DialogueObjs List. Starts at 0, reset by advanceDialogue.
-    int currentDialogueObjIndex = 0;
+    //how long it should take in frames for bg to fade in
+    public float BGFadeInTime = 180;
+    //how long it should take for each text box to fade in
+    public float TextFadeInTime = 240;
+    //how long it takes for everything to fade out
+    public float FadeOutTime = 180;
+    //tracks fading progress
+    public float fadeTimer = 0;
+    //tracks our fading states
+    public bool BGFadingIn = false;
+    public bool TextFadingIn = false;
+    public bool FadingOut = false;
+   
+    //acts as a public Index for iterating over the DialogueObjs List. Starts at 0, reset by functions.
+    int currentTextObjIndex = 0;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -33,68 +45,115 @@ public class DialogueEngager : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        //Debug.Log("current gameManager is " +  gameManager.name);
+
     }
 
     //collision function
     private void OnTriggerEnter2D (Collider2D collider)
     {
-        //check if the collision was with the player
+        //if the thing entering is the PLayer
         if (collider.gameObject.name == "Player")
         {
-            //flip inDialogue to true
-            gameManager.inDialogue = true;
-            //store self as the active DialogueEngager
+            //set BG fade in to true
+            BGFadingIn = true;
+            //and set fadeTimer equal to BG fadeTime
+            fadeTimer = BGFadeInTime;
+            //and set self to activeDialogueManager
             gameManager.activeDialogueEngager = this;
-
-            //show the first dialogue and text
-            showDialogue(currentDialogueObjIndex);
         }
+
     }
     //this fct runs as soon as a collider that was overlapping leaves 
     private void OnTriggerExit2D (Collider2D collider)
     {
-        //hide any dialogue
-        hideDialogue(currentDialogueObjIndex);
-        //set active engager to null
+        //set all things alpha to 0
+        BGObj.GetComponent<Image>().color = new Color(0, 0, 0, 0);
+        for (int textObjIndex = 0; textObjIndex < dialogueTextObjs.Count; textObjIndex++)
+        {
+            //set each text alpha to 0
+            dialogueTextObjs[textObjIndex].GetComponent<TextMeshProUGUI>().color = new Color(0, 0, 0, 0);
+        }
+        //and unassign self as activeDialogueEngager
         gameManager.activeDialogueEngager = null;
     }
-    //hides the current dialogueBGObj and dialogueTextObj, increments the Index, then shows the next. Also wraps up dialogue if we are on the last Index.
-    public void advanceDialogue()
+    //this fct assigns the BG obj's alpha equal to (BGFadeInTime - fadeTimer) / BGFadeInTime. Once BG alpha reaches 255, switches boolean states
+    public void fadeInBG()
     {
-        
-        //if the currentIndex is the final Index (Count - 1)...
-        if (currentDialogueObjIndex == dialogueBGObjs.Count - 1)
+        //abstract percentage of time elapsed
+        float timeElapsed = (BGFadeInTime - fadeTimer) / BGFadeInTime;
+        //abstract current color for easy ref
+        Color currentColor = BGObj.GetComponent<Image>().color;
+        //assign new alpha
+        BGObj.GetComponent<Image>().color = new Color(currentColor.r, currentColor.g, currentColor.b, timeElapsed);
+
+        //finally, if BGObj's alpha has reached 255...
+        if (BGObj.GetComponent<Image>().color.a == 1)
         {
-            //hide the dialogueBox
-            hideDialogue(currentDialogueObjIndex);
+            //toggle off BGFadingIn
+            BGFadingIn = false;
+            //and toggle on textFadingIn
+            TextFadingIn = true;
+            //and set fadeTimer equal to TextFadeInTime 
+            fadeTimer = TextFadeInTime;
         }
-        //else, increment and show the next dialogue
-        else
+    }
+    /*this fct gradually increases the alpha of the TextObj of the given index. Once that Obj's alpha reaches 255, it increases the index. 
+     * Once the final TextObj's alpha reaches 255, it flips off TextFadingIn and flips on FadingOut */
+    public void fadeInCurrentTextObj()
+    {
+        //abstract percentage of time elapse
+        float timeElapsed = (TextFadeInTime - fadeTimer) / TextFadeInTime;
+        //abstract current color for easy ref
+        Color currentColor = dialogueTextObjs[currentTextObjIndex].GetComponent<TextMeshProUGUI>().color;
+        //assign new alpha
+        dialogueTextObjs[currentTextObjIndex].GetComponent<TextMeshProUGUI>().color = new Color(currentColor.r, currentColor.g, currentColor.b, timeElapsed);
+
+        //finally, if the current TextObj has reached max alpha...
+        if (dialogueTextObjs[currentTextObjIndex].GetComponent<TextMeshProUGUI>().color.a == 1)
         {
-            //hide text, frame, and BG for current Dialogue
-            hideDialogue(currentDialogueObjIndex);
-            //increment the dialogueObj Index
-            currentDialogueObjIndex = currentDialogueObjIndex + 1;
-            //show the text and BG for "next" dialogue
-            showDialogue(currentDialogueObjIndex);
+            //and the current TextObj is not the last text obj
+            if (currentTextObjIndex != dialogueTextObjs.Count - 1)
+            {
+                //then increase the currentTextObjIndex to move on to the next Text Obj
+                currentTextObjIndex = currentTextObjIndex + 1;
+                fadeTimer = TextFadeInTime;
+            }
+            //else if this was the last text obj...
+            else
+            {
+                //then flip off textFadingIn
+                TextFadingIn = false;
+                //flip on FadingOut
+                FadingOut = true;
+                //and set the fadeTimer equal to FadeOutTime to prep for fade out
+                fadeTimer = FadeOutTime;
+            }
+        }
+    }
+    //this fct is responsible for uniformly fading out all the BG and all text OBJs. Once all have reached alpha 0, it then unassigns the activeDialogueEngager from the singleton
+    public void fadeOut()
+    {
+        //abstract BG color for easy ref
+        Color currentBGColor = BGObj.GetComponent<Image>().color;
+        //abstract Text colors for easy ref
+        Color currentTextColors = dialogueTextObjs[currentTextObjIndex].GetComponent<TextMeshProUGUI>().color;
+        //abstract percentage of time elapsed
+        float timeElapsed = (FadeOutTime - fadeTimer) / FadeOutTime;
+
+        //assign new aplhas 
+        BGObj.GetComponent<Image>().color = new Color(currentBGColor.r,currentBGColor.g,currentBGColor.g, 1 - timeElapsed);
+        //iterate over all Text Objs to assign their alphas
+        for (int textObjIndex = 0; textObjIndex < dialogueTextObjs.Count; textObjIndex = textObjIndex + 1)
+        {
+            //assign new alha to the currentTextObj in the array
+            dialogueTextObjs[textObjIndex].GetComponent<TextMeshProUGUI>().color = new Color(currentTextColors.r, currentTextColors.g, currentTextColors.b, 1 - timeElapsed);
         }
 
+        //finally, once either alpha reaches 0 (they should be synced), unassign the activeDialogueManager in trhe gameManager
+        if (BGObj.GetComponent<Image>().color.a == 0)
+        {
+            gameManager.activeDialogueEngager = null;
+        }
     }
-    //"Shows" the dialogueBGObj and dialogueTextObj at the given index from their Lists. Right now this means activating their Renderer Components.
-    void showDialogue(int dialogueIndex)
-    {
-        //show the current dialogue BG 
-        dialogueBGObjs[currentDialogueObjIndex].GetComponent<Image>().enabled = true;
-        //show the current dialogue Text
-        dialogueTextObjs[currentDialogueObjIndex].GetComponent<TextMeshProUGUI>().enabled = true;
-    }
-    //"Hides" the dialogueBGObj and DialogueTextObj at the given index from their Lists. Right now this means de-activating their Renderer Components.
-    void hideDialogue(int dialogueIndex)
-    {
-        //hide the current dialogue BG
-        dialogueBGObjs[currentDialogueObjIndex].GetComponent<Image>().enabled = false;
-        //hidethe current dialogue Text
-        dialogueTextObjs[currentDialogueObjIndex].GetComponent<TextMeshProUGUI>().enabled = false;
-    }
+
 }

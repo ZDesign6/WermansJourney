@@ -39,18 +39,33 @@ public class GameManagerBehavior : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
-    }
-    //on press enter, advance the dialogue in the active dialogue engager, if there is one
-    void OnAdvanceDialogue()
-    {
-        //check if not null
-        if (activeDialogueEngager != null)
+        //if there is an activeDialogueEngager...
+        if (activeDialogueEngager != null) 
         {
-            //then trigger the advance dialogue method of it
-            activeDialogueEngager.advanceDialogue();
+            //reduce its fadeTimer by one as long as it is not 0
+            if (activeDialogueEngager.fadeTimer > 0)
+            {
+                activeDialogueEngager.fadeTimer = activeDialogueEngager.fadeTimer - 1;
+            }
+
+            //if its BGFadingIn is true...
+            if (activeDialogueEngager.BGFadingIn == true)
+            {
+                //fade in the BG until it reaches alpha 255
+                activeDialogueEngager.fadeInBG();
+            }
+            else if (activeDialogueEngager.TextFadingIn == true)
+            {
+                //call the textFadeOutfct
+                activeDialogueEngager.fadeInCurrentTextObj();
+            }
+            else if (activeDialogueEngager.FadingOut == true)
+            {
+                activeDialogueEngager.fadeOut();
+            }
+                
         }
     }
 }
