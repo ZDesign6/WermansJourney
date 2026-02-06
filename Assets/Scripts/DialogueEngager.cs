@@ -51,6 +51,14 @@ public class DialogueEngager : MonoBehaviour
             showDialogue(currentDialogueObjIndex);
         }
     }
+    //this fct runs as soon as a collider that was overlapping leaves 
+    private void OnTriggerExit2D (Collider2D collider)
+    {
+        //hide any dialogue
+        hideDialogue(currentDialogueObjIndex);
+        //set active engager to null
+        gameManager.activeDialogueEngager = null;
+    }
     //hides the current dialogueBGObj and dialogueTextObj, increments the Index, then shows the next. Also wraps up dialogue if we are on the last Index.
     public void advanceDialogue()
     {
