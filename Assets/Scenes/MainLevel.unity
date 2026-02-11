@@ -1103,8 +1103,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1214,7 +1214,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -162}
+  m_AnchoredPosition: {x: 0, y: -153.2}
   m_SizeDelta: {x: 212.08, y: 46.618}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &27783414
@@ -1241,8 +1241,8 @@ MonoBehaviour:
     happen again. Even if we don\u2019t know where to go we must see what is waiting
     for us on the surface!\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1266,8 +1266,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 9
+  m_fontSizeBase: 9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1527,8 +1527,8 @@ MonoBehaviour:
   m_text: Sure am! I have been feeling a bit lost lately so I wonder if I can find
     something that can help me.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1756,8 +1756,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2895,8 +2895,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5151,8 +5151,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Excellent! I\u2019m glad you figured it out. May I ask what it was?\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5377,8 +5377,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "No I will! I\u2019ll dominate the market share! \r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6985,8 +6985,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10558,8 +10558,8 @@ MonoBehaviour:
   m_text: "Let\u2019s travel together! Maybe you just need another person around.
     Two Heads are better "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11553,8 +11553,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Hiya! You're also heading towards the surface for the Emergence?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13095,8 +13095,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13414,8 +13414,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Agreed, I hope our businesses will grow together in the future.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14087,8 +14087,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Where will we end up? Do we still Not know where we are headed
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -19245,8 +19245,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -20433,8 +20433,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: So it is just us two?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -20885,8 +20885,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -21305,8 +21305,8 @@ MonoBehaviour:
   m_text: "Friends, worms to share my stories with, to laugh with and to be myself
     with. Burrowing with you was the most fun I had in a very long time. \r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -21622,8 +21622,8 @@ MonoBehaviour:
   m_text: Boys, boys, calm down, relax. The surface will have a surplus of wealth
     for us all. This will be quick and easy. Just how I like it.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22709,8 +22709,8 @@ MonoBehaviour:
   m_text: Making money is the goal. Who cares about, the route to wealth is short
     and sweet with the Emergence happening.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22845,8 +22845,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Maybe a little\u2026not sure.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -23056,8 +23056,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Do either of you know where this path leads? \r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24052,8 +24052,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Well, how are you feeling? \r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -26796,8 +26796,8 @@ MonoBehaviour:
   m_text: "It\u2019s always nice to make new friends isn\u2019t it? It is important
     to have people close to you. Let's burrow to the surface now.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -26935,8 +26935,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -27755,8 +27755,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -27893,8 +27893,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -29871,8 +29871,8 @@ MonoBehaviour:
     parts is shallow, and I have no plans to partner with anyone.  May the best worm
     succeed.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -30339,8 +30339,8 @@ MonoBehaviour:
   m_text: He is right, the Emergence will bring us all great wealth and fortune.
     Save your energy for emerging to the surface.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -32416,8 +32416,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -33270,8 +33270,8 @@ MonoBehaviour:
   m_text: "How unfortunate we lost the other two but to be honest they couldn\u2019t
     see the bigger picture."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -34276,8 +34276,8 @@ MonoBehaviour:
   m_text: HEAD BACK? Are you crazy? The surface awaits. Who cares what the surface
     is like, as long as we get to see it that is all that matters!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -35517,8 +35517,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Yes\u2026 and that worm who just entered."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -35998,8 +35998,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Glad to see you boys moving up for the Emergence. An ambitious bunch indeed
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -36283,8 +36283,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "I am going to get rich! I\u2019ll be the richest worm on Worm Street.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -36422,8 +36422,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -36652,8 +36652,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -36788,8 +36788,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "You don\u2019t need to tell me. Any worm would have struggled there.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -38654,8 +38654,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -39895,8 +39895,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "What a climb! That last section wasn\u2019t too easy.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -40033,8 +40033,8 @@ MonoBehaviour:
     doesn\u2019t make you wealthy. Venture on brothers of the market For we will
     be the rich and powerful."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -41008,8 +41008,8 @@ MonoBehaviour:
   m_text: "Are we sure this is a good idea guys? Why are we even doing this? Some
     stupid legend?\r\n "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -42867,8 +42867,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "That\u2019s the spirit!\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -43483,8 +43483,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -45258,8 +45258,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "You\u2019re right. It is too early to get discouraged!\r\n\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
