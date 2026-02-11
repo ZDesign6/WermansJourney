@@ -472,8 +472,8 @@ MonoBehaviour:
   m_text: Why should I have left the moist ground in the first place, I could die
     up here. What is even the point anymore?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1208,8 +1208,8 @@ MonoBehaviour:
   m_text: "I wish I had slowed down to ask myself, why\u2026why did I want to take
     part in the Emergence at all?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1345,8 +1345,8 @@ MonoBehaviour:
   m_text: "Werman:\r\nI Emerged! I finally did it. What is \u201Cit\u201D though?
     What was I chasing again? Why did I even decide to Emerge in the first place? "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

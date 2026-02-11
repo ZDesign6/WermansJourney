@@ -181,8 +181,8 @@ MonoBehaviour:
     The Otherworld truly is beautiful. The journey may have been
     long, but I got to meet other worms on my way to the Otherworld. '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -573,8 +573,8 @@ MonoBehaviour:
   m_text: 'It was a hard and grueling journey to make. At times I was tempted to
     take the easy way out but I eventually found my way to my clew. '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -967,8 +967,8 @@ MonoBehaviour:
   m_text: "I wonder what would have happened if I had taken another path, but in
     the end I wouldn\u2019t have it any other way. "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

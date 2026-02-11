@@ -183,8 +183,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18.8
+  m_fontSize: 18
   m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -320,8 +320,8 @@ MonoBehaviour:
   m_text: Being alone at the top truly is not as desirable as it once seemed. As
     I wriggle here I wonder, what would have happened if I took another path?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1371,8 +1371,8 @@ MonoBehaviour:
   m_text: "I have no friends and family, I wriggled on others to get to the spot
     I'm in today. I have it all except the things that really matter\u2026 "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1547,8 +1547,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Was it worth it?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
+  m_sharedMaterial: {fileID: -1731705604764355138, guid: 3217ebe55649fb6429eb779656869b9e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1572,7 +1572,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30.95
+  m_fontSize: 22.05
   m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 1
