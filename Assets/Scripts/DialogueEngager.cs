@@ -20,7 +20,7 @@ public class DialogueEngager : MonoBehaviour
     //list of all UI DialogueTextObjs that should be triggered. assigned in-editor.
     public List<GameObject> dialogueTextObjs = new List<GameObject>();
     //the max possible alpha value. Used to clamp alpha before assignment and used to check if we are done lerping
-    public float maxAlpha = .85f;
+    public float maxAlpha = .9f;
     //how long it should take in frames for bg to fade in
     public float BGFadeInTime = 180;
     //how long it should take for each text box to fade in
