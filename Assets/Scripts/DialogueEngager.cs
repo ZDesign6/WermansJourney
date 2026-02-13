@@ -19,6 +19,8 @@ public class DialogueEngager : MonoBehaviour
     public GameObject BGObj;
     //list of all UI DialogueTextObjs that should be triggered. assigned in-editor.
     public List<GameObject> dialogueTextObjs = new List<GameObject>();
+    //the max possible alpha value. Used to clamp alpha before assignment and used to check if we are done lerping
+    public float maxAlpha = .85f;
     //how long it should take in frames for bg to fade in
     public float BGFadeInTime = 180;
     //how long it should take for each text box to fade in
@@ -76,18 +78,20 @@ public class DialogueEngager : MonoBehaviour
         //and unassign self as activeDialogueEngager
         gameManager.activeDialogueEngager = null;
     }
-    //this fct assigns the BG obj's alpha equal to (BGFadeInTime - fadeTimer) / BGFadeInTime. Once BG alpha reaches 255, switches boolean states
+    //this fct assigns the BG obj's alpha equal to (BGFadeInTime - fadeTimer) / BGFadeInTime. Once BG alpha reaches max, switches boolean states
     public void fadeInBG()
     {
         //abstract percentage of time elapsed
-        float timeElapsed = (BGFadeInTime - fadeTimer) / BGFadeInTime;
+        float alphaToAssign = (BGFadeInTime - fadeTimer) / BGFadeInTime;
+        //clamp alpha to assign between 0 and maxAlpha
+        alphaToAssign = Mathf.Clamp(alphaToAssign, 0, maxAlpha);
         //abstract current color for easy ref
         Color currentColor = BGObj.GetComponent<Image>().color;
         //assign new alpha
-        BGObj.GetComponent<Image>().color = new Color(currentColor.r, currentColor.g, currentColor.b, timeElapsed);
+        BGObj.GetComponent<Image>().color = new Color(currentColor.r, currentColor.g, currentColor.b, alphaToAssign);
 
         //finally, if BGObj's alpha has reached 255...
-        if (BGObj.GetComponent<Image>().color.a == 1)
+        if (BGObj.GetComponent<Image>().color.a == maxAlpha)
         {
             //toggle off BGFadingIn
             BGFadingIn = false;
@@ -101,15 +105,17 @@ public class DialogueEngager : MonoBehaviour
      * Once the final TextObj's alpha reaches 255, it flips off TextFadingIn and flips on FadingOut */
     public void fadeInCurrentTextObj()
     {
-        //abstract percentage of time elapse
-        float timeElapsed = (TextFadeInTime - fadeTimer) / TextFadeInTime;
+        //abstract percentage of time elapse. Starts at 0, ends at 1.
+        float  alphaToAssign = (TextFadeInTime - fadeTimer) / TextFadeInTime;
+        //clamp alpha to assign between 0 and maxAlpha
+        alphaToAssign = Mathf.Clamp(alphaToAssign, 0, maxAlpha);
         //abstract current color for easy ref
         Color currentColor = dialogueTextObjs[currentTextObjIndex].GetComponent<TextMeshProUGUI>().color;
         //assign new alpha
-        dialogueTextObjs[currentTextObjIndex].GetComponent<TextMeshProUGUI>().color = new Color(currentColor.r, currentColor.g, currentColor.b, timeElapsed);
+        dialogueTextObjs[currentTextObjIndex].GetComponent<TextMeshProUGUI>().color = new Color(currentColor.r, currentColor.g, currentColor.b, alphaToAssign);
 
         //finally, if the current TextObj has reached max alpha...
-        if (dialogueTextObjs[currentTextObjIndex].GetComponent<TextMeshProUGUI>().color.a == 1)
+        if (dialogueTextObjs[currentTextObjIndex].GetComponent<TextMeshProUGUI>().color.a == maxAlpha)
         {
             //and the current TextObj is not the last text obj
             if (currentTextObjIndex != dialogueTextObjs.Count - 1)
@@ -138,15 +144,17 @@ public class DialogueEngager : MonoBehaviour
         //abstract Text colors for easy ref
         Color currentTextColors = dialogueTextObjs[currentTextObjIndex].GetComponent<TextMeshProUGUI>().color;
         //abstract percentage of time elapsed
-        float timeElapsed = (FadeOutTime - fadeTimer) / FadeOutTime;
+        float alphaToAssign = (FadeOutTime - fadeTimer) / FadeOutTime;
+        //clamp alpha to assign between 0 and max
+        alphaToAssign = Mathf.Clamp(alphaToAssign, 0, maxAlpha);
 
         //assign new aplhas 
-        BGObj.GetComponent<Image>().color = new Color(currentBGColor.r,currentBGColor.g,currentBGColor.g, 1 - timeElapsed);
+        BGObj.GetComponent<Image>().color = new Color(currentBGColor.r,currentBGColor.g,currentBGColor.g, .75f - alphaToAssign);
         //iterate over all Text Objs to assign their alphas
         for (int textObjIndex = 0; textObjIndex < dialogueTextObjs.Count; textObjIndex = textObjIndex + 1)
         {
             //assign new alha to the currentTextObj in the array
-            dialogueTextObjs[textObjIndex].GetComponent<TextMeshProUGUI>().color = new Color(currentTextColors.r, currentTextColors.g, currentTextColors.b, 1 - timeElapsed);
+            dialogueTextObjs[textObjIndex].GetComponent<TextMeshProUGUI>().color = new Color(currentTextColors.r, currentTextColors.g, currentTextColors.b, .75f - alphaToAssign);
         }
 
         //finally, once either alpha reaches 0 (they should be synced), unassign the activeDialogueManager in trhe gameManager
