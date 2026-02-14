@@ -21574,9 +21574,9 @@ MonoBehaviour:
   - {fileID: 491971783}
   - {fileID: 924302998}
   maxAlpha: 0.9
-  BGFadeInTime: 180
+  BGFadeInTime: 240
   TextFadeInTime: 240
-  FadeOutTime: 180
+  FadeOutTime: 300
   fadeTimer: 0
   BGFadingIn: 0
   TextFadingIn: 0
@@ -25338,9 +25338,9 @@ MonoBehaviour:
   - {fileID: 306790556}
   - {fileID: 1308954388}
   maxAlpha: 0.9
-  BGFadeInTime: 180
+  BGFadeInTime: 240
   TextFadeInTime: 240
-  FadeOutTime: 180
+  FadeOutTime: 300
   fadeTimer: 0
   BGFadingIn: 0
   TextFadingIn: 0
@@ -31402,9 +31402,9 @@ MonoBehaviour:
   - {fileID: 1007776174}
   - {fileID: 1296170207}
   maxAlpha: 0.9
-  BGFadeInTime: 180
+  BGFadeInTime: 240
   TextFadeInTime: 240
-  FadeOutTime: 180
+  FadeOutTime: 400
   fadeTimer: 0
   BGFadingIn: 0
   TextFadingIn: 0
